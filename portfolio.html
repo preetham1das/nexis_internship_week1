@@ -198,19 +198,24 @@
 
 
     <!-- Contact Section -->
-    <section id="contact" class="section contact">
+<h2 class="section-title">Contact Me</h2>
 
-        <h2 class="section-title">Contact Me</h2>
+<form id="contactForm">
 
-        <p>
-            Interested in working together or discussing a project?
-        </p>
+    <input type="text" id="name" placeholder="Your Name">
 
-        <a href="mailto:your-email@example.com" class="btn">
-            Send Email
-        </a>
+    <input type="email" id="email" placeholder="Your Email">
 
-    </section>
+    <textarea id="message" placeholder="Your Message"></textarea>
+
+    <button type="submit" class="btn">
+        Send Message
+    </button>
+
+    <p id="errorMessage"></p>
+
+</form>
+   <br><br><br>
 
 
     <!-- Footer -->
@@ -219,6 +224,6 @@
         <p>© 2026 Preetham. All Rights Reserved.</p>
 
     </footer>
-
+<script src="script.js"></script>
 </body>
 </html>
