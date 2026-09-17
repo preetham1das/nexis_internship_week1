@@ -2,7 +2,7 @@ document.body.style.margin = "0";
 document.body.style.fontFamily = "Arial, sans-serif";
 document.body.style.backgroundColor = "#f4f4f4";
 
-// Navbar
+
 const navbar = document.createElement("nav");
 
 navbar.style.backgroundColor = "#333";
@@ -24,7 +24,7 @@ navbar.appendChild(cart);
 document.body.appendChild(navbar);
 
 
-// Hero section
+
 const hero = document.createElement("section");
 
 hero.style.textAlign = "center";
@@ -54,7 +54,7 @@ hero.appendChild(shopButton);
 document.body.appendChild(hero);
 
 
-// Product section
+
 const productSection = document.createElement("section");
 
 productSection.style.padding = "60px 20px";
@@ -66,7 +66,6 @@ productHeading.textContent = "Featured Products";
 productSection.appendChild(productHeading);
 
 
-// Products
 const products = [
     {
         name: "Wireless Headphones",
@@ -91,7 +90,7 @@ const products = [
 ];
 
 
-// Flexbox container
+
 const container = document.createElement("div");
 
 container.style.display = "flex";
@@ -100,11 +99,11 @@ container.style.gap = "25px";
 container.style.flexWrap = "wrap";
 
 
-// Cart count
+
 let cartCount = 0;
 
 
-// Create product cards
+
 products.forEach((product) => {
 
     const card = document.createElement("div");
@@ -146,7 +145,7 @@ products.forEach((product) => {
     button.style.cursor = "pointer";
 
 
-    // Add to cart
+
     button.addEventListener("click", () => {
 
         cartCount++;
@@ -173,7 +172,6 @@ productSection.appendChild(container);
 document.body.appendChild(productSection);
 
 
-// Footer
 const footer = document.createElement("footer");
 
 footer.textContent = "© 2026 ShopNow. All Rights Reserved.";
