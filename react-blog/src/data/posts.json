@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "title": "Getting Started with React",
+    "category": "React",
+    "author": "DAS",
+    "description": "Learn the basics of React and understand how components work."
+  },
+  {
+    "id": 2,
+    "title": "JavaScript Array Methods",
+    "category": "JavaScript",
+    "author": "DAS",
+    "description": "Learn useful array methods like map, filter and reduce."
+  },
+  {
+    "id": 3,
+    "title": "Understanding CSS Flexbox",
+    "category": "CSS",
+    "author": "DAS",
+    "description": "Learn how Flexbox helps create responsive layouts."
+  },
+  {
+    "id": 4,
+    "title": "React Props Explained",
+    "category": "React",
+    "author": "DAS",
+    "description": "Understand how data is passed between React components."
+  },
+  {
+    "id": 5,
+    "title": "Modern JavaScript Features",
+    "category": "JavaScript",
+    "author": "DAS",
+    "description": "Explore modern JavaScript features such as arrow functions."
+  },
+   {
+    "id": 6,
+    "title": "React useState Hook",
+    "category": "React",
+    "author": "Preetham",
+    "description": "Understand how useState allows React components to manage changing data."
+  },
+  {
+    "id": 7,
+    "title": "CSS Grid vs Flexbox",
+    "category": "CSS",
+    "author": "Preetham",
+    "description": "Learn when to use CSS Grid and when Flexbox is a better choice."
+  },
+  {
+    "id": 8,
+    "title": "JavaScript DOM Basics",
+    "category": "JavaScript",
+    "author": "Preetham",
+    "description": "Learn how JavaScript can interact with and modify HTML elements."
+  },
+  {
+    "id": 9,
+    "title": "React Component Lifecycle",
+    "category": "React",
+    "author": "Preetham",
+    "description": "Learn the basic lifecycle concepts used when building React applications."
+  },
+  {
+    "id": 10,
+    "title": "Responsive Web Design",
+    "category": "CSS",
+    "author": "Preetham",
+    "description": "Learn how to create websites that work well on different screen sizes."
+  },
+  {
+    "id": 11,
+    "title": "JavaScript Promises",
+    "category": "JavaScript",
+    "author": "Preetham",
+    "description": "Understand promises and how they are used to handle asynchronous operations."
+  },
+  {
+    "id": 12,
+    "title": "React Event Handling",
+    "category": "React",
+    "author": "Preetham",
+    "description": "Learn how React handles user interactions such as clicks and form submissions."
+  }
+]
